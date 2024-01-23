@@ -1,0 +1,106 @@
+       /* Home page styling */
+       body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url(../image/home/background.jpg);
+            background-size: cover;
+            background-position: center;
+            color:white;
+        }
+
+        header {
+            background-color: blue;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        #welcome-section {
+            text-align: center;
+            font-size: large;
+            margin-top: 370px;
+        }
+
+        #welcome-text {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+       
+
+        #get-started-btn {
+            background-color: rgb(54, 19, 150);
+            color: #fff;
+            padding: 15px 25px;
+            border-style: solid;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        #get-started-btn:hover {
+            background-color: #720460;
+        }
+      
+        /* Signup page styling */
+        form {
+            background-color: #19127a;;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            margin: auto;
+            margin-top: 200px;
+
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+
+       
+        input
+        {            
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+            
+    
+        button {
+            background-color: rgb(54, 19, 150);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.3s;
+            border-style: solid;
+        }
+
+        button:hover {
+            background-color: #720460;
+        }
+
+    /* Login Page Style*/

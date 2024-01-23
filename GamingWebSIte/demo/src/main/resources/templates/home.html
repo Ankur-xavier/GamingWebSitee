@@ -1,0 +1,22 @@
+<html>
+  <html lang="en" xmlns:th="http://www.thymeleaf.org" th:fragment="Layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Site</title>
+    <link rel="stylesheet" th:href ="@{/css/homeStyle.css}">
+</head>
+<body>
+   <section th:fragment="section">
+    <nav>
+        <a href="#" th:href="@{/}">Home</a>
+        <a href="#" th:href="@{/login}" >Login</a>
+        <a href="#" th:href="@{/signup}" >Signup</a>
+        <a href="#" th:href="@{/about}">About</a>
+    </nav>
+</section>
+    <div th:replace="base::content"></div>
+
+   
+</body>
+</html>

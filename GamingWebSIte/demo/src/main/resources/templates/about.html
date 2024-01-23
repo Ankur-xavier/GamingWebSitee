@@ -1,0 +1,34 @@
+<!-- about.html -->
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" th:href ="@{/css/homeStyle.css}">
+    <link rel="stylesheet" th:href="@{/css/gameStyle.css}">
+</head>
+<body>
+
+  <section th:replace ="home::section"></section>
+    <div class="outer-container">
+      
+      <div class="game-container">
+        <h1>Tic Tac Toe </h1>
+        <div id="game-board"></div>
+        <div id="turn-display">Player X's Turn</div>
+        
+      </div>
+    </div>
+
+  <div id="modal" class="modal">
+    <div id="modal-content" class="modal-content">
+      <span id="winner-message" class="winner-message"></span>
+      <br>
+      <button id="restart-game-button">Restart Game</button>
+    </div>
+  </div>
+  
+  <script th:src="@{/script/ticTacToeScript.js}"></script>
+</body>
+</html>
