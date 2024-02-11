@@ -102,5 +102,11 @@
         button:hover {
             background-color: #720460;
         }
-
+        
+        .signup-status {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
     /* Login Page Style*/
